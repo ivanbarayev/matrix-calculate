@@ -22,3 +22,4 @@ numpy
 9. I enabled "Inbound IPv4 Trial Support" (at 15:17)
 10. I added "anthony" and "derek" as a team member (admin) on RisingCloud panel (at 15:20)
 11. DNS resolve issue still continue (at 15:23)
+12. The cloud task tested and i could serve the request and got the result (at 18:32)
