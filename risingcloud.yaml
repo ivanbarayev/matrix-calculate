@@ -1,0 +1,18 @@
+name: matrix-calculate
+url: matrix-calculate
+team: 63fb4252b846d7ad3f4a328f
+mode: risingcloud
+workspace: Sandbox
+from: ubuntu:22.04
+build: []
+deps:
+  - apt update && apt upgrade -y
+  - apt install -y python3-pip
+  - pip install numpy
+daemons: []
+run: python3 main.py
+timeout: 300000
+env: {}
+minWorkers: 0
+maxWorkers: 8
+maxStorage: 4000
